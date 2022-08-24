@@ -20,7 +20,7 @@ export const GameResult = ({ result, correctAnswer }) => {
     }, 1000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [dispatch]);
 
   return (
     <GameResultContainer>
