@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render with given state from Redux store 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <App>
+    <Styled(styled.div)>
+      <div
+        className="sc-iBkjds sc-ftvSup bzDIEo gCaIiC"
+      >
+        <Game>
+          <styled.div>
+            <div
+              className="sc-bczRLJ hhtlfC"
+            >
+              <styled.div
+                className="animate__animated animate__slideInDown"
+              >
+                <div
+                  className="sc-gsnTZi ianBro animate__animated animate__slideInDown"
+                >
+                  Can you guess the secrets code?
+                </div>
+              </styled.div>
+              <Input
+                disabled={false}
+                id="secret-code-input"
+                maxLength={4}
+                onChange={[Function]}
+                placeholder="Secret code"
+                value=""
+              >
+                <styled.div>
+                  <div
+                    className="sc-dkzDqf gQxYYg"
+                  >
+                    <styled.input
+                      disabled={false}
+                      id="secret-code-input"
+                      maxLength={4}
+                      onChange={[Function]}
+                      placeholder="Secret code"
+                      value=""
+                    >
+                      <input
+                        className="sc-hKMtZM gATWiU"
+                        disabled={false}
+                        id="secret-code-input"
+                        maxLength={4}
+                        onChange={[Function]}
+                        placeholder="Secret code"
+                        value=""
+                      />
+                    </styled.input>
+                  </div>
+                </styled.div>
+              </Input>
+              <DigitsStatuses
+                input=""
+                secretCode={
+                  Array [
+                    1,
+                    2,
+                    3,
+                    4,
+                  ]
+                }
+              >
+                <styled.div>
+                  <div
+                    className="sc-eCYdqJ iyiAJB"
+                  />
+                </styled.div>
+              </DigitsStatuses>
+            </div>
+          </styled.div>
+        </Game>
+      </div>
+    </Styled(styled.div)>
+  </App>
+</Provider>
+`;
